@@ -1,0 +1,38 @@
+body{
+    background-color:rgb(255, 102, 102);
+}
+
+.jumbotron{
+    background-color: transparent;
+    text-align: justify;
+    width: 45em;
+    word-spacing: -1px;
+    margin: 200px;
+    margin-left: 340px;
+    color: white;
+
+}
+
+.navbar{
+    margin-left: 185px;
+    top: -10px;
+    width: 55em;
+    border-radius: 15px;
+}
+
+@keyframes cursor-blink {
+    0% {
+      color: black;
+    }
+    50% {
+      color: white;
+    }
+    100% {
+      color: black;
+    }
+  }
+  
+  
+  #cursor {
+    animation: cursor-blink 1s infinite;
+  }
