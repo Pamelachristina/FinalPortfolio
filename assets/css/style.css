@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(255, 102, 102);
+    background-color:rgb(255, 254, 254);
 }
 
 .jumbotron{
@@ -7,9 +7,9 @@ body{
     text-align: justify;
     width: 45em;
     word-spacing: -1px;
-    margin: 200px;
+    margin: -50px;
     margin-left: 340px;
-    color: white;
+    color: black;
 
 }
 
@@ -35,4 +35,8 @@ body{
   
   #cursor {
     animation: cursor-blink 1s infinite;
+  }
+
+  svg{
+    margin-top: -900px;
   }
