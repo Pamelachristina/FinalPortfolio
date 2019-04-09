@@ -1,9 +1,32 @@
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('../fonts/A\ little\ sunshine.ttf'), ('../fonts/BebasNeue-Regular.otf');/* IE9 Compat Modes */
+  src: url('../fonts/A\ little\ sunshine.ttf'), ('../fonts/BebasNeue-Regular.otf');format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/A\ little\ sunshine.ttf'), ('../fonts/BebasNeue-Regular.otf'),/* Super Modern Browsers */
+       url('../fonts/A\ little\ sunshine.ttf'), ('../fonts/BebasNeue-Regular.otf') format('otf'), /* Pretty Modern Browsers */
+       url('../fonts/A\ little\ sunshine.ttf'),('../fonts/BebasNeue-Regular.otf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+  
+
+
+h4{
+  font-size: 1.5rem;
+  position: absolute;
+  left: -500px;
+  top: 80px;
+}
+
 body{
     background-color:rgb(255, 254, 254);
+    margin-top: 50px;
 }
 
 .jumbotron{
     background-color: transparent;
+    font-family: "MyWebFont", "BebasNeue-Regular.otf", sans-serif;
     text-align: justify;
     width: 45em;
     word-spacing: -1px;
@@ -13,12 +36,7 @@ body{
 
 }
 
-.navbar{
-    margin-left: 185px;
-    top: -10px;
-    width: 55em;
-    border-radius: 15px;
-}
+
 
 @keyframes cursor-blink {
     0% {
@@ -37,6 +55,588 @@ body{
     animation: cursor-blink 1s infinite;
   }
 
-  svg{
-    margin-top: -900px;
+  #pamSvg{
+    margin-top: 0px;
+    width: 500px;
+    margin-left: 450px;
+    position: absolute;
+
   }
+
+  /* Background shapes for home section left side of drawing*/
+
+ #circleTop{
+  float: left;
+  width: 3.5em;
+  position: relative;
+  margin-left: 190px;
+  margin-top: -300px;
+
+}
+
+#triangleTop{
+ float: left;
+ width: 3.5em;
+ position: relative;
+ margin-left: 130px;
+ margin-top: -180px;
+
+}
+
+#lightBoltTop{
+ float: left;
+ width: 2.5em;
+ position: relative;
+ margin-left: 300px;
+ margin-top: -86px;
+}
+
+#CircleSmallTop{
+ float: left;
+ width: 2em;
+ position: relative;
+ margin-left: 230px;
+ margin-top: 100px;
+
+}
+
+#lightBoltTop2{
+ float: left;
+ width: 2.5em;
+ position: relative;
+ margin-left: -200px;
+ margin-top: 205px;
+}
+
+/* Background shapes for home section right side of drawing*/
+
+
+#triangleTopRight{
+  float: right;
+  width: 3.5em;
+  position: relative;
+  margin-right: 190px;
+  margin-top: -260px;
+ 
+ }
+
+#circleSmallRight{
+  float: right;
+  width: 2em;
+  position: relative;
+  margin-right: 210px;
+  margin-top: -100px
+
+}
+
+#lightBoltRight{
+  float: right;
+  width: 2.5em;
+  position: relative;
+  margin-right: 235px;
+  margin-top: 20px;
+ }
+ 
+
+ #circleLargeTop{
+  float: right;
+  width: 3.5em;
+  position: relative;
+  margin-left: 190px;
+  margin-top: -300px;
+
+}
+/********************END BACKGROUND SHAPES HOME SECTION*************************************/
+
+#scrollBar{
+  clear: both;
+  margin: 50px;
+  margin-left: 430px;
+  margin-top: 245px;
+}
+  
+  nav{
+    font-family: "MyWebFont", "A\ little\ sunshine", sans-serif;
+    font-size: 2.5em;
+    color: black;
+    position: absolute;
+    top: -2px;
+    left: 515px;
+    
+
+  }
+
+  a{
+    color: black;
+    
+  }
+ 
+  a:hover{
+    color: black;
+    opacity: 0.5;
+    text-decoration: none;
+
+  }
+
+
+ /********************ABOUT SECTION STARTS HERE*************************************/
+#aboutBlackLine{
+  margin-top: 100px;
+  position: absolute;
+  z-index: -99;
+}
+ 
+#aboutDrawing{
+  width: 350px;
+  float: right;
+  z-index: 1;
+  margin-right: 143px;
+  margin-top: -161px;
+  position: relative;
+
+}
+
+#aboutP{
+  margin-top: 20px;
+  padding-left: 290px;
+  position: relative;
+  z-index: 2;
+}
+
+#aboutText{
+  margin-top: 225px;
+  padding-left: 290px;
+  height: 55px;
+  position: relative;
+  z-index: 2;
+  
+}
+
+#aboutSmallCircleLeft{
+  top: 240px;
+  left: 360px;
+  position: relative;
+  z-index: 2;
+}
+
+#aboutCircleLargeLeft{
+  margin-top: 20px;
+  padding-left: 290px;
+  position: relative;
+  z-index: 2;
+}
+
+#aboutSmallCircleRight{
+  margin-top: 20px;
+  padding-left: 290px;
+  position: relative;
+  z-index: 2;
+}
+
+#aboutSmallCircleRight2{
+  
+  float: right;
+  z-index: 1;
+  margin-right: 140px;
+  margin-top: 100px;
+  position: relative;
+
+}
+
+#aboutTriangleWithLineRight{
+  
+  float: right;
+  z-index: 1;
+  margin-right: 140px;
+  margin-top: 100px;
+  position: relative;
+
+}
+
+#aboutLightBoltRight{
+  
+  float: right;
+  z-index: 1;
+  margin-right: 140px;
+  margin-top: 100px;
+  position: relative;
+
+}
+/********************SKILLS SECTION STARTS HERE*************************************/
+#skillsText{
+  position: absolute;
+  left: 400px;
+  top: -120px;
+
+}
+
+
+
+#photoshop{
+  position: absolute;
+  left: 0px;
+  top: -25px;
+}
+#photoshopStatusBar{
+  
+  top: 225px;
+  left: 290px;
+  height: 55px;
+  font-family: "MyWebFont", "A\ little\ sunshine", sans-serif;
+  
+  
+}
+
+.skillsSection{
+  position: absolute;
+  left: 450px;
+  top: 2000px;
+}
+
+#illustratorT{
+  position: absolute;
+  left: 0px;
+  top: 80px;
+}
+
+#indesignT{
+  position: absolute;
+  left: 0px;
+  top: 180px;
+}
+
+#aftereffectsT{
+  position: absolute;
+  left: 0px;
+  top: 280px;
+}
+
+#htmlT{
+  position: absolute;
+  left: 0px;
+  top: 380px;
+}
+
+#cssT{
+  position: absolute;
+  left: 0px;
+  top:  480px;
+}
+
+#jsT{
+  position: absolute;
+  left: 0px;
+  top:  580px;
+}
+
+#illustratorStatusBar{
+  height: 55px;
+  font-family: "MyWebFont", "A\ little\ sunshine", sans-serif;
+  position: absolute;
+  top: 100px;
+}
+
+#indesignStatusBar{
+  height: 55px;
+  font-family: "MyWebFont", "A\ little\ sunshine", sans-serif;
+  position: absolute;
+  top: 200px;
+}
+
+#aeStatusBar{
+  height: 55px;
+  font-family: "MyWebFont", "A\ little\ sunshine", sans-serif;
+  position: absolute;
+  top: 300px;
+}
+
+#hyperTextStatusBar{
+  height: 55px;
+  font-family: "MyWebFont", "A\ little\ sunshine", sans-serif;
+  position: absolute;
+  top: 400px;
+}
+
+#cssStatusBar{
+  height: 55px;
+  font-family: "MyWebFont", "A\ little\ sunshine", sans-serif;
+  position: absolute;
+  top: 500px;
+}
+
+#jsStatusBar{
+  height: 55px;
+  font-family: "MyWebFont", "A\ little\ sunshine", sans-serif;
+  position: absolute;
+  top: 600px;
+}
+
+/********************SKILLS SECTION ENDS HERE*************************************/
+
+ /********************WORK SECTION STARTS HERE*************************************/
+
+ .workSection
+
+ #workText{
+  position: absolute;
+  right: 810px;
+  top: 700px;
+}
+
+
+ #webText{
+  position: absolute;
+  right: 570px;
+  top: 800px;
+ }
+
+ .cityGuide{
+  
+  right: 570px;
+  top: 900px;
+ }
+
+ #city{
+  left: 335px;
+  top: 885px;
+  position: relative;
+ }
+
+ #cityText{
+  left: 335px;
+  top: 880px;
+  width: 500px;
+  position: relative;
+
+ }
+
+ #cityGuideImg{
+  position: absolute;
+  right: 410px;
+  top: 900px;
+ }
+
+ .artRoom{
+  position: relative;
+  right: -200px;
+  top: 1100px;
+  }
+
+ #art
+
+ .artText{
+  position: absolute;
+  right: 130px;
+  top: 300px;
+ }
+
+ #artRoomP{
+  position: relative;
+  right: 500px;
+  top: 115px;
+  width: 550px;
+ }
+
+ #artRoomImg{
+    position: absolute;
+    right: 25px;
+    top: 25px;
+ }
+
+.bowie{
+  position: relative;
+  right: 400px;
+  top: 1200px;
+}
+
+#rebelText{
+  left: 750px;
+  top: 355px;
+  width: 500px;
+  position: relative;
+}
+
+#RebelP{
+  right: -750px;
+  top: 350px;
+  width: 500px;
+  position: relative;
+}
+#rebelHangmanImg{
+
+}
+
+.crystalCollector{
+  position: relative;
+  right: -200px;
+  top: 1100px;
+
+}
+
+#crystalText{
+  font-size: 1.5rem;
+  position: absolute;
+  top: 270px;
+}
+
+#crystalCollectorP{
+  position: relative;
+  right: 500px;
+  top: 300px;
+  width: 500px;
+
+}
+
+
+
+#crystalCollectorImg{
+
+}
+
+/*ILLUSTRATION SECTION-------------------------------------------------*/
+.illustrationSection{
+  position: relative;
+  right: 400px;
+  top: 1250px;
+}
+
+
+
+.fashionAfrica{
+  position: relative;
+  right: -50px;
+  top: 0px;
+}
+
+
+#fashionText{
+  position: absolute;
+  left: 550px;
+  top: 35px
+}
+
+#fashionP{
+  position: absolute;
+  left: 550px;
+  top: 65px;
+  width: 500px;
+}
+
+.realisticWoman{
+  position: relative;
+  right: -650px;
+  top: 50px;
+}
+#art{
+   position: absolute;
+    left: -590px;
+    top: 30px;
+    width: 500px;
+}
+
+#artP{
+  position: absolute;
+  left: -590px;
+  top: 65px;
+  width: 500px;
+}
+
+.blackPantherWoman{
+  position: relative;
+  left: 20px;
+  top: 100px;
+}
+
+#blackText{
+  position: absolute;
+  left: 598px;
+  top: 95px;
+}
+
+#blackP{
+  position: absolute;
+  left: 600px;
+  top: 125px;
+  width: 500px;
+}
+
+
+.lineArt{
+  position: relative;
+  right: -650px;
+  top: 175px;
+}
+
+#lineP{
+  position: absolute;
+  left: -590px;
+  top: 125px;
+  width: 500px;
+}
+
+#lineText{
+  position: absolute;
+  left: -590px;
+  top: 95px;
+  width: 500px;
+}
+
+/*CONTACT SECTION-------------------------------------------------*/
+
+.contactSection{
+  position: absolute;
+  left: 25px;
+  top: 3300px;
+  width: 230px;
+}
+
+#contactText{
+
+}
+
+#linkedIn{
+  position: absolute;
+  left: 0px;
+  top: 100px;
+  width: 100px;
+}
+
+#linkedInText{
+  position: absolute;
+    left: 7px;
+    top: 205px;
+}
+
+#facebook{
+    margin-left: 150px;
+    margin-top: 23px;
+    left: 0;
+    top: 296px;
+    width: 100px;
+}
+
+#facebookText{
+  margin-left: 145px;
+  margin-top: -6px;
+  left: 0;
+  top: 296px;
+}
+
+#email{
+  margin-left: 300px;
+  margin-top: -188px;
+  left: 0;
+  top: 296px;
+  width: 100px;
+}
+
+#emailText{
+  margin-left: 320px;
+  margin-top: -106px;
+  left: 0;
+  top: 296px;
+
+
+
+
+
