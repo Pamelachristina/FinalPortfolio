@@ -71,7 +71,20 @@ body{
   position: relative;
   margin-left: 190px;
   margin-top: -300px;
+  animation-duration: 2s;
+  animation-name: animateShapes;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
 
+}
+
+@keyframes animateShapes {
+  from {
+    transform: translateX(0) translateY(0);
+  }
+  to {
+    transform: translateX(10px) translateY(-15px);
+  }
 }
 
 #triangleTop{
@@ -80,6 +93,11 @@ body{
  position: relative;
  margin-left: 130px;
  margin-top: -180px;
+ animation-duration: 2s;
+ animation-name: animateShapes;
+ animation-direction: reverse;
+ animation-iteration-count: infinite;
+ 
 
 }
 
@@ -89,6 +107,11 @@ body{
  position: relative;
  margin-left: 300px;
  margin-top: -86px;
+ animation-duration: 2s;
+ animation-name: animateShapes;
+ animation-direction: alternate-reverse;
+ animation-iteration-count: infinite;
+ 
 }
 
 #CircleSmallTop{
@@ -97,6 +120,11 @@ body{
  position: relative;
  margin-left: 230px;
  margin-top: 100px;
+ animation-duration: 2s;
+ animation-name: animateShapes;
+ animation-direction: normal;
+ animation-iteration-count: infinite;
+ 
 
 }
 
@@ -106,6 +134,11 @@ body{
  position: relative;
  margin-left: -200px;
  margin-top: 205px;
+ animation-duration: 2s;
+ animation-name: animateShapes;
+ animation-direction: alternate;
+ animation-iteration-count: infinite;
+ 
 }
 
 /* Background shapes for home section right side of drawing*/
@@ -117,6 +150,11 @@ body{
   position: relative;
   margin-right: 190px;
   margin-top: -260px;
+  animation-duration: 2s;
+  animation-name: animateShapes;
+  animation-direction: reverse;
+  animation-iteration-count: infinite;
+  
  
  }
 
@@ -125,7 +163,12 @@ body{
   width: 2em;
   position: relative;
   margin-right: 210px;
-  margin-top: -100px
+  margin-top: -100px;
+  animation-duration: 2s;
+  animation-name: animateShapes;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+ 
 
 }
 
@@ -135,6 +178,11 @@ body{
   position: relative;
   margin-right: 235px;
   margin-top: 20px;
+  animation-duration: 2s;
+  animation-name: animateShapes;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+ 
  }
  
 
@@ -144,6 +192,11 @@ body{
   position: relative;
   margin-left: 190px;
   margin-top: -300px;
+  animation-duration: 2s;
+  animation-name: animateShapes;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  
 
 }
 /********************END BACKGROUND SHAPES HOME SECTION*************************************/
@@ -158,18 +211,13 @@ body{
   nav{
     font-family: "MyWebFont", "A\ little\ sunshine", sans-serif;
     font-size: 2.5em;
-    color: black;
-    position: absolute;
-    top: -2px;
-    left: 515px;
-    
-
+    color: white;
+    top: -50px;
+    width: 100%;
+    position: fixed;
   }
 
-  a{
-    color: black;
-    
-  }
+
  
   a:hover{
     color: black;
