@@ -95,7 +95,7 @@ body{
  margin-top: -180px;
  animation-duration: 2s;
  animation-name: animateShapes;
- animation-direction: reverse;
+ animation-direction: alternate-reverse;
  animation-iteration-count: infinite;
  
 
@@ -107,7 +107,7 @@ body{
  position: relative;
  margin-left: 300px;
  margin-top: -86px;
- animation-duration: 2s;
+ animation-duration: 3s;
  animation-name: animateShapes;
  animation-direction: alternate-reverse;
  animation-iteration-count: infinite;
@@ -122,7 +122,7 @@ body{
  margin-top: 100px;
  animation-duration: 2s;
  animation-name: animateShapes;
- animation-direction: normal;
+ animation-direction: alternate-reverse;
  animation-iteration-count: infinite;
  
 
@@ -134,9 +134,9 @@ body{
  position: relative;
  margin-left: -200px;
  margin-top: 205px;
- animation-duration: 2s;
+ animation-duration: 4s;
  animation-name: animateShapes;
- animation-direction: alternate;
+ animation-direction: alternate-reverse;
  animation-iteration-count: infinite;
  
 }
@@ -152,7 +152,7 @@ body{
   margin-top: -260px;
   animation-duration: 2s;
   animation-name: animateShapes;
-  animation-direction: reverse;
+  animation-direction: alternate-reverse;
   animation-iteration-count: infinite;
   
  
@@ -164,11 +164,11 @@ body{
   position: relative;
   margin-right: 210px;
   margin-top: -100px;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-name: animateShapes;
   animation-direction: alternate-reverse;
   animation-iteration-count: infinite;
- 
+  
 
 }
 
@@ -178,11 +178,11 @@ body{
   position: relative;
   margin-right: 235px;
   margin-top: 20px;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-name: animateShapes;
-  animation-direction: normal;
+  animation-direction: alternate-reverse;
   animation-iteration-count: infinite;
- 
+  
  }
  
 
@@ -192,9 +192,9 @@ body{
   position: relative;
   margin-left: 190px;
   margin-top: -300px;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-name: animateShapes;
-  animation-direction: alternate;
+  animation-direction: alternate-reverse;
   animation-iteration-count: infinite;
   
 
@@ -208,13 +208,17 @@ body{
   margin-top: 245px;
 }
   
-  nav{
+  .navbar{
     font-family: "MyWebFont", "A\ little\ sunshine", sans-serif;
     font-size: 2.5em;
-    color: white;
-    top: -50px;
-    width: 100%;
-    position: fixed;
+    width: 650px;
+    left: 390px;
+    opacity: 0.9;
+    border-bottom-left-radius: 25px;
+    
+   
+  
+   
   }
 
 
@@ -241,6 +245,10 @@ body{
   margin-right: 143px;
   margin-top: -161px;
   position: relative;
+  animation-duration: 3s;
+  animation-name: animateShapes;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
 
 }
 
@@ -265,6 +273,10 @@ body{
   left: 360px;
   position: relative;
   z-index: 2;
+  animation-duration: 1s;
+  animation-name: animateShapes;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
 }
 
 #aboutCircleLargeLeft{
@@ -272,6 +284,10 @@ body{
   padding-left: 290px;
   position: relative;
   z-index: 2;
+  animation-duration: 2s;
+  animation-name: animateShapes;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
 }
 
 #aboutSmallCircleRight{
@@ -279,6 +295,10 @@ body{
   padding-left: 290px;
   position: relative;
   z-index: 2;
+  animation-duration: 4s;
+  animation-name: animateShapes;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
 }
 
 #aboutSmallCircleRight2{
@@ -288,6 +308,10 @@ body{
   margin-right: 140px;
   margin-top: 100px;
   position: relative;
+  animation-duration: 1s;
+  animation-name: animateShapes;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
 
 }
 
@@ -298,6 +322,10 @@ body{
   margin-right: 140px;
   margin-top: 100px;
   position: relative;
+  animation-duration: 2s;
+  animation-name: animateShapes;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
 
 }
 
@@ -308,6 +336,10 @@ body{
   margin-right: 140px;
   margin-top: 100px;
   position: relative;
+  animation-duration: 1s;
+  animation-name: animateShapes;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
 
 }
 /********************SKILLS SECTION STARTS HERE*************************************/
